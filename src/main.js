@@ -1,4 +1,10 @@
 import { createApp } from 'vue'
 import App from './App.vue'
+//
+// Vue.use(new VueSocketIO({
+//   debug: true,
+//   connection: SocketIO('http://metinseylan.com:1992')
+// }))
 
-createApp(App).mount('#app')
+const app = createApp(App)
+app.mount('#app')
